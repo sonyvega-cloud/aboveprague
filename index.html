@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AbovePrague</title>
+  <meta name="description" content="AbovePrague — interaktivní 3D mapa Prahy z nadhledu.">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      height: 100%;
+      background: #000;
+      overflow: hidden;
+    }
+    .wrap {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo {
+      width: clamp(260px, 60vw, 720px);
+      height: auto;
+      display: block;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <img class="logo" src="/logo.svg" alt="AbovePrague">
+  </div>
+</body>
+</html>
